@@ -73,3 +73,5 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+MyUNREALProject/Saved/Autosaves/PackageRestoreData.json
+MyUNREALProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
