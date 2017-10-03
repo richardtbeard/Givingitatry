@@ -346,8 +346,3 @@ LogInit: Object subsystem initialized
 [2017.10.03-13.20.12:087][241]LogOutputDevice:Error: ntdll.dll!0x00000000BFBE0D51
 [2017.10.03-13.20.12:087][241]LogOutputDevice:Error: 
 [2017.10.03-13.20.12:093][241]LogStats:                SubmitErrorReport -  0.000 s
-[2017.10.03-13.20.24:517][241]LogStats:                    SendNewReport - 12.425 s
-[2017.10.03-13.20.24:517][241]LogStats:             FDebug::EnsureFailed - 14.339 s
-[2017.10.03-13.20.40:594][241]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.03-13.20.40:840][241]SourceControl:Error: Error fatal: cannot do a partial commit during a merge.
-[2017.10.03-13.20.40:849][241]SourceControl: Info Submitted revision.
