@@ -409,16 +409,3 @@ LogInit: Object subsystem initialized
 [2017.10.03-04.38.35:655][993]LogOutputDevice:Error: ntdll.dll!0x00000000BFBE0D51
 [2017.10.03-04.38.35:655][993]LogOutputDevice:Error: 
 [2017.10.03-04.38.35:659][993]LogStats:                SubmitErrorReport -  0.000 s
-[2017.10.03-04.38.52:269][993]LogStats:                    SendNewReport - 16.610 s
-[2017.10.03-04.38.52:269][993]LogStats:             FDebug::EnsureFailed - 18.382 s
-[2017.10.03-04.39.11:290][993]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.03-04.39.11:718][993]SourceControl: Info On branch master
-[2017.10.03-04.39.11:718][993]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
-[2017.10.03-04.39.11:718][993]SourceControl: Info   (use "git push" to publish your local commits)
-[2017.10.03-04.39.11:718][993]SourceControl: Info Changes not staged for commit:
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	modified:   MyUNREALProject/Saved/Logs/MyUNREALProject.log
-[2017.10.03-04.39.11:718][993]SourceControl: Info Untracked files:
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	MyUNREALProject/Saved/Logs/Git-Temp37E7D8E146E0885EDD101BA0DC6F4EEA.txt
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	MyUNREALProject/Saved/Logs/UE4CC-Windows-1F9BA1854CA11B1CF56626B00CC480D2_0000/
-[2017.10.03-04.39.11:718][993]SourceControl: Info no changes added to commit
-[2017.10.03-04.39.11:727][993]SourceControl: Info Commited On branch master.
