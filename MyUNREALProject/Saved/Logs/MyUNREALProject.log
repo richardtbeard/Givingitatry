@@ -1,9 +1,9 @@
-﻿Log file open, 10/02/17 23:13:37
+﻿Log file open, 10/03/17 08:07:11
 LogInit:Display: Running engine for game: MyUNREALProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1220721993) SRandInit(1220721993).
+LogInit:Display: RandInit(1199118861) SRandInit(1199118861).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 2.584731
+LogStats: Stats thread started at 0.084391
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,377 +48,269 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.03-04.13.42:763][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.03-04.13.42:763][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.03-04.13.42:869][  0]LogInit: Computer: TSAR
-[2017.10.03-04.13.42:869][  0]LogInit: User: Tsar
-[2017.10.03-04.13.42:869][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.10.03-04.13.42:869][  0]LogInit: High frequency timer resolution =2.143579 MHz
-[2017.10.03-04.13.42:870][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
-[2017.10.03-04.13.42:870][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.03-04.13.42:870][  0]LogMemory: Process Physical Memory: 262.59 MB used, 262.59 MB peak
-[2017.10.03-04.13.42:870][  0]LogMemory: Process Virtual Memory: 261.90 MB used, 261.90 MB peak
-[2017.10.03-04.13.42:870][  0]LogMemory: Physical Memory: 3425.83 MB used,  483.45 MB free, 3909.28 MB total
-[2017.10.03-04.13.42:870][  0]LogMemory: Virtual Memory: 643.03 MB used,  483.45 MB free, 134217728.00 MB total
-[2017.10.03-04.13.48:822][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.10.03-04.14.12:034][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.03-04.14.12:205][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
-[2017.10.03-04.14.12:205][  0]LogD3D11RHI:       128/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.10.03-04.14.12:522][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.03-04.14.12:522][  0]LogD3D11RHI:       0/0/1954 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.03-04.14.12:522][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.03-04.14.12:531][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.03-04.14.12:531][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.03-04.14.12:531][  0]LogWindows: EnumDisplayDevices:
-[2017.10.03-04.14.12:532][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
-[2017.10.03-04.14.12:532][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
-[2017.10.03-04.14.12:533][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2017.10.03-04.14.12:533][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
-[2017.10.03-04.14.12:533][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
-[2017.10.03-04.14.12:533][  0]LogD3D11RHI:      Driver Date: 5-19-2016
-[2017.10.03-04.14.12:533][  0]LogRHI: Texture pool is 660 MB (70% of 944 MB)
-[2017.10.03-04.14.12:571][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.03-04.14.12:603][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
-[2017.10.03-04.14.12:605][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Intermediate/Shaders/WorkingDirectory/1872/).
-[2017.10.03-04.14.12:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/T'sar/AppData/Local/Temp/UnrealShaderWorkingDir/64E6AD73438CD5C6D50F8C815DD6CB17/'.
-[2017.10.03-04.14.12:624][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.10.03-04.14.34:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.03-04.14.34:623][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.10.03-04.14.35:075][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.03-04.14.35:288][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.10.03-04.14.35:581][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.10.03-04.14.35:777][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.03-04.14.35:968][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.03-04.14.36:163][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.03-04.14.36:648][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.10.03-04.14.37:310][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.10.03-04.14.37:815][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.03-04.14.38:012][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.03-04.14.38:212][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.03-04.14.38:423][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.03-04.14.38:621][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.03-04.14.39:590][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.03-04.14.39:591][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.03-04.14.40:071][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.10.03-04.14.40:518][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.10.03-04.14.40:632][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.10.03-04.14.40:842][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.03-04.14.41:045][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.03-04.14.41:261][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.03-04.14.41:917][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.10.03-04.14.41:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.10.03-04.14.45:921][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache: Loaded boot cache 1.28s 48MB C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.03-04.14.47:222][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.03-04.14.47:363][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.03-04.14.47:377][  0]LogDerivedDataCache: Using Local data cache path C:/Users/T'sar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.03-04.14.47:393][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.03-04.14.47:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.03-04.14.47:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.03-04.14.55:098][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.03-04.14.55:136][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.03-04.14.56:685][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.03-04.14.57:042][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.03-04.14.57:295][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.03-04.14.57:295][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.10.03-04.14.57:295][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.10.03-04.15.00:960][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myunrealproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3193458936
-[2017.10.03-04.15.01:129][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2017.10.03-04.15.01:646][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.419992 seconds
-[2017.10.03-04.15.01:684][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.10.03-04.15.01:685][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.10.03-04.15.01:685][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.03-04.15.01:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.03-04.16.14:584][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.03-04.16.15:317][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.03-04.16.25:915][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.03-04.16.32:526][  0]SourceControl: Info Source control is disabled
-[2017.10.03-04.16.32:672][  0]SourceControl: Info Source control is disabled
-[2017.10.03-04.16.33:290][  0]SourceControl: Info Source control is disabled
-[2017.10.03-04.16.34:039][  0]SourceControl: Info Source control is disabled
-[2017.10.03-04.17.01:682][  0]LogEngine: Initializing Engine...
-[2017.10.03-04.17.01:749][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.03-04.17.02:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.03-04.17.02:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.03-04.17.04:338][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.03-04.17.05:798][  0]LogInit: XAudio2 using 'VO320E (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.03-04.17.06:478][  0]LogInit: FAudioDevice initialized.
-[2017.10.03-04.17.06:727][  0]LogDerivedDataCache: Saved boot cache 0.25s 48MB C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.10.03-04.17.06:816][  0]LogInit: Texture streaming: Enabled
-[2017.10.03-04.17.10:381][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.03-04.17.12:935][  0]LogInit: Transaction tracking system initialized
-[2017.10.03-04.17.18:374][  0]BlueprintLog: New page: Editor Load
-[2017.10.03-04.17.34:324][  0]LocalizationService: Info Localization service is disabled
-[2017.10.03-04.17.44:810][  0]LogConsoleResponse:Display: 
-[2017.10.03-04.17.47:229][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/' took 0.04s
-[2017.10.03-04.17.47:229][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.03-04.17.47:229][  0]LogCook:Display: Mobile HDR setting 1
-[2017.10.03-04.18.04:051][  0]SourceControl: Info Source control is disabled
-[2017.10.03-04.18.04:051][  0]Cmd: MAP LOAD FILE="../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2017.10.03-04.18.04:097][  0]LightingResults: New page: Lighting Build
-[2017.10.03-04.18.04:367][  0]MapCheck: New page: Map Check
-[2017.10.03-04.18.04:368][  0]LightingResults: New page: Lighting Build
-[2017.10.03-04.18.08:965][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
-[2017.10.03-04.18.09:033][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2017.10.03-04.18.09:033][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
-[2017.10.03-04.18.09:281][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
-[2017.10.03-04.18.09:281][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2017.10.03-04.18.09:282][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
-[2017.10.03-04.18.09:288][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
-[2017.10.03-04.18.09:288][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2017.10.03-04.18.09:288][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
-[2017.10.03-04.18.09:288][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2017.10.03-04.18.09:914][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
-[2017.10.03-04.18.09:914][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2017.10.03-04.18.09:914][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2017.10.03-04.18.09:914][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2017.10.03-04.18.12:662][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.10.03-04.18.14:198][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.03-04.18.14:230][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.03-04.18.14:925][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 694.893ms to complete.
-[2017.10.03-04.18.14:993][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 10.942
-[2017.10.03-04.18.20:141][  0]LogCollectionManager: Loaded 0 collections in 0.025192 seconds
-[2017.10.03-04.18.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/Collections/' took 0.01s
-[2017.10.03-04.18.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/Developers/Tsar/Collections/' took 0.01s
-[2017.10.03-04.18.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/Collections/' took 0.01s
-[2017.10.03-04.18.20:789][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.10.03-04.18.20:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0705 seconds. Added 2245 classes and 453 folders.
-[2017.10.03-04.18.21:442][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2017.10.03-04.18.25:144][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2017.10.03-04.18.25:733][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.10.03-04.18.26:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.10.03-04.18.27:143][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.10.03-04.18.27:715][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.10.03-04.18.27:716][  0]LogLoad: (Engine Initialization) Total time: 309.70 seconds
-[2017.10.03-04.18.27:716][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.54 seconds
-[2017.10.03-04.18.27:716][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.03-04.18.27:716][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.03-04.18.27:864][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.10.03-04.18.27:865][  0]LogOcInput: OculusInput pre-init called
-[2017.10.03-04.18.28:099][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.10.03-04.18.28:266][  0]LogSlate: Took 0.021413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.03-04.18.28:320][  0]LogSlate: Took 0.011506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.03-04.18.28:411][  0]LogSlate: Took 0.030134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.03-04.18.30:464][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:2).
-[2017.10.03-04.18.37:064][  1]LogSlate: Took 0.024387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.03-04.18.38:613][  5]LogAssetRegistry: Asset discovery search completed in 217.5108 seconds
-[2017.10.03-04.18.38:626][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.011954 seconds (found 0 objects)
-[2017.10.03-04.18.38:626][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.012957 seconds (updated 0 objects)
-[2017.10.03-04.23.50:207][453]LogSlate: Took 0.000485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.03-04.23.54:293][479]LogSlate: Took 0.000557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.03-04.23.55:867][479]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2017.10.03-04.23.55:867][479]LogSynthBenchmark:Display: ===============
-[2017.10.03-04.23.55:867][479]LogSynthBenchmark:Display: Main Processor:
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:          ... 0.082999 s/Run 'RayIntersect'
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:          ... 0.053530 s/Run 'Fractal'
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display: 
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   NumberOfCores (logical): 2
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   CPU Perf Index 0: 30.9 (weight 1.00)
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   CPU Perf Index 1: 53.4 (weight 1.50)
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:  
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display: Graphics:
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics'
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   Vendor Id: 0x8086
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   Device Id: 0x106
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   Device Revision: 0x9
-[2017.10.03-04.23.56:004][479]LogSynthBenchmark:Display:   GPU Memory: 128/0/1632 MB
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:   GPU first test: 0.19s
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.064 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.071 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.059 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.336 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.014 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:          ... 0.302 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
-[2017.10.03-04.23.56:663][479]LogSynthBenchmark:Display:   GPU Final Results:
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.064 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.071 s/GigaPix, Confidence=100% 'TexHeavy'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.059 s/GigaPix, Confidence=89% 'DepTexHeavy'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.336 s/GigaPix, Confidence=89% 'FillOnly'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.014 s/GigaPix, Confidence=89% 'Bandwidth'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:          ... 0.302 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display: 
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 0: 1.4 (weight 1.00)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 1: 1.0 (weight 0.10)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 2: 1.5 (weight 0.10)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 3: 1.3 (weight 3.00)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 4: 1.3 (weight 1.00)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 5: 5.0 (weight 0.00)
-[2017.10.03-04.23.56:664][479]LogSynthBenchmark:Display:   GPU Perf Index 6: 17.1 (weight 0.00)
-[2017.10.03-04.23.56:758][479]LogSynthBenchmark:Display:   CPUIndex: 44.4
-[2017.10.03-04.23.56:758][479]LogSynthBenchmark:Display:   GPUIndex: 1.3
-[2017.10.03-04.23.56:758][479]LogSynthBenchmark:Display: 
-[2017.10.03-04.23.56:758][479]LogSynthBenchmark:Display:          ... Total Time: 0.890586 sec
-[2017.10.03-04.34.23:770][242]SourceControl: Info Source control is disabled
-[2017.10.03-04.35.37:696][794]SourceControl: Info On branch master
-[2017.10.03-04.35.37:696][794]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.10.03-04.35.37:696][794]SourceControl: Info Changes not staged for commit:
-[2017.10.03-04.35.37:696][794]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2017.10.03-04.35.37:696][794]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.03-04.35.37:696][794]SourceControl: Info 	modified:   MyUNREALProject/Intermediate/CachedAssetRegistry.bin
-[2017.10.03-04.35.37:696][794]SourceControl: Info 	modified:   MyUNREALProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.03-04.35.37:696][794]SourceControl: Info 	modified:   MyUNREALProject/Saved/Logs/MyUNREALProject.log
-[2017.10.03-04.35.37:696][794]SourceControl: Info Untracked files:
-[2017.10.03-04.35.37:696][794]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.10.03-04.35.37:696][794]SourceControl: Info 	MyUNREALProject/Saved/Logs/MyUNREALProject-backup-2017.10.02-23.13.37.log
-[2017.10.03-04.35.37:696][794]SourceControl: Info 	MyUNREALProject/Saved/Logs/UE4CC-Windows-1F9BA1854CA11B1CF56626B00CC480D2/
-[2017.10.03-04.35.37:696][794]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.10.03-04.36.13:306][302]SourceControl: Info On branch master
-[2017.10.03-04.36.13:306][302]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.10.03-04.36.13:306][302]SourceControl: Info Changes not staged for commit:
-[2017.10.03-04.36.13:306][302]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2017.10.03-04.36.13:306][302]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.03-04.36.13:306][302]SourceControl: Info 	modified:   MyUNREALProject/Intermediate/CachedAssetRegistry.bin
-[2017.10.03-04.36.13:306][302]SourceControl: Info 	modified:   MyUNREALProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.03-04.36.13:306][302]SourceControl: Info 	modified:   MyUNREALProject/Saved/Logs/MyUNREALProject.log
-[2017.10.03-04.36.13:306][302]SourceControl: Info Untracked files:
-[2017.10.03-04.36.13:306][302]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.10.03-04.36.13:306][302]SourceControl: Info 	MyUNREALProject/Saved/Logs/MyUNREALProject-backup-2017.10.02-23.13.37.log
-[2017.10.03-04.36.13:306][302]SourceControl: Info 	MyUNREALProject/Saved/Logs/UE4CC-Windows-1F9BA1854CA11B1CF56626B00CC480D2/
-[2017.10.03-04.36.13:306][302]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.10.03-04.36.15:101][302]LogSavePackage: Save=428.98ms
-[2017.10.03-04.36.15:102][302]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/RedMatE47BD0CF4E2167FA633A2896E8B21514.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/RedMat.uasset'
-[2017.10.03-04.36.15:255][302]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/RedMat.uasset
-[2017.10.03-04.36.23:918][347]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.23:953][347]LogTemp:Display: Added material ShaderMap 0x000002157D69AE80 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.24:056][347]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002157D69AE80
-[2017.10.03-04.36.24:518][347]LogSlate: Took 0.198693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.03-04.36.26:676][347]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.26:678][347]LogTemp:Display: Added material ShaderMap 0x0000021573348100 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.26:690][347]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x0000021573348100
-[2017.10.03-04.36.26:717][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.26:995][347]LogSlate: Took 0.184133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.03-04.36.35:653][398]LogTemp:Display: Finished compile of shader map 0x000002157D69AE80
-[2017.10.03-04.36.35:653][398]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x000002157D69AE80, marking material RedMat as finished
-[2017.10.03-04.36.35:653][398]LogTemp:Display: Marking material as finished 0x00000215614F3100
-[2017.10.03-04.36.38:716][427]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.38:718][427]LogTemp:Display: Added material ShaderMap 0x000002150E32D280 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.38:731][427]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002150E32D280
-[2017.10.03-04.36.38:731][427]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.38:836][427]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.03-04.36.38:853][427]LogTemp:Display: Added material ShaderMap 0x00000215731E7580 with Material 0x000002150D879900 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.38:859][427]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000215731E7580
-[2017.10.03-04.36.38:965][427]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.38:967][427]LogTemp:Display: Added material ShaderMap 0x00000215731E6080 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.38:980][427]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x00000215731E6080
-[2017.10.03-04.36.38:980][427]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.38:985][427]LogTemp:Display: Removed shader map 0x00000215731E7580 from material 0x000002150D879900
-[2017.10.03-04.36.39:051][427]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.03-04.36.39:053][427]LogTemp:Display: Added material ShaderMap 0x000002150DD22780 with Material 0x000002150D879900 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.39:058][427]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002150DD22780
-[2017.10.03-04.36.39:588][432]LogTemp:Display: Finished compile of shader map 0x0000021573348100
-[2017.10.03-04.36.39:588][432]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x0000021573348100, marking material RedMat as finished
-[2017.10.03-04.36.39:588][432]LogTemp:Display: Marking material as finished 0x00000215614F3100
-[2017.10.03-04.36.45:129][479]LogTemp:Display: Finished compile of shader map 0x00000215731E6080
-[2017.10.03-04.36.45:129][479]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x00000215731E6080, marking material RedMat as finished
-[2017.10.03-04.36.45:129][479]LogTemp:Display: Marking material as finished 0x00000215614F3100
-[2017.10.03-04.36.46:339][487]LogTemp:Display: Finished compile of shader map 0x000002150DD22780
-[2017.10.03-04.36.46:339][487]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002150DD22780, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
-[2017.10.03-04.36.46:339][487]LogTemp:Display: Marking material as finished 0x000002150D879900
-[2017.10.03-04.36.48:439][501]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.48:441][501]LogTemp:Display: Added material ShaderMap 0x000002150DCC4B80 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.48:454][501]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002150DCC4B80
-[2017.10.03-04.36.48:455][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.48:588][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.10.03-04.36.48:590][501]LogTemp:Display: Added material ShaderMap 0x00000215731E6080 with Material 0x000002150D879900 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.48:595][501]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000215731E6080
-[2017.10.03-04.36.49:924][513]LogMaterialEditor: Applying material RedMat
-[2017.10.03-04.36.54:812][513]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.54:814][513]LogTemp:Display: Added material ShaderMap 0x000002157D698B80 with Material 0x00000215614F3100 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.54:842][513]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002157D698B80
-[2017.10.03-04.36.54:842][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.54:947][513]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.54:949][513]LogTemp:Display: Added material ShaderMap 0x000002157354FC80 with Material 0x00000215615A0A00 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.54:976][513]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002157354FC80
-[2017.10.03-04.36.55:010][513]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.03-04.36.55:012][513]LogTemp:Display: Added material ShaderMap 0x000002150DCC6780 with Material 0x00000215615A0A00 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.55:028][513]LogTemp:Display: Kicking off shader compilation for RedMat, GameThreadShaderMap 0x000002150DCC6780
-[2017.10.03-04.36.55:030][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.10.03-04.36.55:307][513]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RedMat, compiling. 
-[2017.10.03-04.36.55:309][513]LogTemp:Display: Added material ShaderMap 0x000002150F07CF00 with Material 0x0000021567AC9300 to ShaderMapsBeingCompiled
-[2017.10.03-04.36.58:930][513]LogTemp:Display: Finished compile of shader map 0x000002150F07CF00
-[2017.10.03-04.36.58:930][513]LogTemp:Display: Shader map FDebugViewModeMaterialProxy RedMat complete, GameThreadShaderMap 0x000002150F07CF00, marking material FDebugViewModeMaterialProxy RedMat as finished
-[2017.10.03-04.36.58:930][513]LogTemp:Display: Marking material as finished 0x0000021567AC9300
-[2017.10.03-04.36.58:969][513]TextureStreamingBuild:Display: Compiling optional shaders took 3.835 seconds.
-[2017.10.03-04.36.59:049][513]LogTemp:Display: Finished compile of shader map 0x00000215731E6080
-[2017.10.03-04.36.59:049][513]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000215731E6080, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
-[2017.10.03-04.36.59:049][513]LogTemp:Display: Marking material as finished 0x000002150D879900
-[2017.10.03-04.36.59:054][513]LogTemp:Display: Finished compile of shader map 0x000002157D698B80
-[2017.10.03-04.36.59:054][513]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x000002157D698B80, marking material RedMat as finished
-[2017.10.03-04.36.59:054][513]LogTemp:Display: Marking material as finished 0x00000215614F3100
-[2017.10.03-04.36.59:058][513]LogTemp:Display: Finished compile of shader map 0x000002150DCC4B80
-[2017.10.03-04.36.59:058][513]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x000002150DCC4B80, marking material RedMat as finished
-[2017.10.03-04.36.59:058][513]LogTemp:Display: Marking material as finished 0x00000215614F3100
-[2017.10.03-04.37.02:664][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
-[2017.10.03-04.37.04:644][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
-[2017.10.03-04.37.07:011][572]LogTemp:Display: Finished compile of shader map 0x000002150DCC6780
-[2017.10.03-04.37.07:011][572]LogTemp:Display: Shader map RedMat complete, GameThreadShaderMap 0x000002150DCC6780, marking material RedMat as finished
-[2017.10.03-04.37.07:011][572]LogTemp:Display: Marking material as finished 0x00000215615A0A00
-[2017.10.03-04.37.24:423][766]LogSavePackage: Save=840.90ms
-[2017.10.03-04.37.24:423][766]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/ThirdPersonExampleMap7665DF084CCFD3B2A30F3CA2D05A47A0.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.10.03-04.37.24:435][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.10.03-04.37.24:465][766]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.226
-[2017.10.03-04.37.24:476][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/RedMat" FILE="../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/RedMat.uasset" SILENT=true
-[2017.10.03-04.37.24:482][766]LogSavePackage: Save=2.64ms
-[2017.10.03-04.37.24:482][766]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/RedMatA6949EDA48A66F62B8688AB6FB951999.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/RedMat.uasset'
-[2017.10.03-04.37.24:488][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/RedMat.uasset
-[2017.10.03-04.37.25:257][766]LogSavePackage: Save=26.29ms
-[2017.10.03-04.37.25:257][766]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/RedMat35D2C2174FEA7217ADB1BAB81B94EDA6.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/RedMat.uasset'
-[2017.10.03-04.37.25:266][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/RedMat.uasset
-[2017.10.03-04.38.29:093][993]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.10.03-04.38.33:886][993]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/MyUNREALProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.10.03-04.38.35:655][993]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.730 s
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: === Handled ensure: ===
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: 
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/MyUNREALProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: Stack: 
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000098E795E6
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000098C29B82
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000098C3B666
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000008B46A6E8
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009BB13D22
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009BB13EB9
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000837A1D2E
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000008375B4B5
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000008375AA8D
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000008376F274
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000007BE3B851
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000007BE4D1ED
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000009BB19C5C
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000088157517
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000088962196
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor.exe!0x00000000FD05DEE3
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor.exe!0x00000000FD04EB40
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor.exe!0x00000000FD04EBBA
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor.exe!0x00000000FD060A29
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: UE4Editor.exe!0x00000000FD0622B6
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: KERNEL32.DLL!0x00000000BD252774
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: ntdll.dll!0x00000000BFBE0D51
-[2017.10.03-04.38.35:655][993]LogOutputDevice:Error: 
-[2017.10.03-04.38.35:659][993]LogStats:                SubmitErrorReport -  0.000 s
-[2017.10.03-04.38.52:269][993]LogStats:                    SendNewReport - 16.610 s
-[2017.10.03-04.38.52:269][993]LogStats:             FDebug::EnsureFailed - 18.382 s
-[2017.10.03-04.39.11:290][993]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.03-04.39.11:718][993]SourceControl: Info On branch master
-[2017.10.03-04.39.11:718][993]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
-[2017.10.03-04.39.11:718][993]SourceControl: Info   (use "git push" to publish your local commits)
-[2017.10.03-04.39.11:718][993]SourceControl: Info Changes not staged for commit:
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	modified:   MyUNREALProject/Saved/Logs/MyUNREALProject.log
-[2017.10.03-04.39.11:718][993]SourceControl: Info Untracked files:
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	MyUNREALProject/Saved/Logs/Git-Temp37E7D8E146E0885EDD101BA0DC6F4EEA.txt
-[2017.10.03-04.39.11:718][993]SourceControl: Info 	MyUNREALProject/Saved/Logs/UE4CC-Windows-1F9BA1854CA11B1CF56626B00CC480D2_0000/
-[2017.10.03-04.39.11:718][993]SourceControl: Info no changes added to commit
-[2017.10.03-04.39.11:727][993]SourceControl: Info Commited On branch master.
+[2017.10.03-13.07.13:250][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-13.07.13:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-13.07.13:415][  0]LogInit: Computer: TSAR
+[2017.10.03-13.07.13:415][  0]LogInit: User: Tsar
+[2017.10.03-13.07.13:415][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.10.03-13.07.13:415][  0]LogInit: High frequency timer resolution =2.143579 MHz
+[2017.10.03-13.07.13:415][  0]LogMemory: Memory total: Physical=3.8GB (4GB approx)
+[2017.10.03-13.07.13:415][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-13.07.13:415][  0]LogMemory: Process Physical Memory: 262.86 MB used, 262.86 MB peak
+[2017.10.03-13.07.13:415][  0]LogMemory: Process Virtual Memory: 262.06 MB used, 262.06 MB peak
+[2017.10.03-13.07.13:415][  0]LogMemory: Physical Memory: 3069.36 MB used,  839.91 MB free, 3909.28 MB total
+[2017.10.03-13.07.13:415][  0]LogMemory: Virtual Memory: 643.03 MB used,  839.91 MB free, 134217728.00 MB total
+[2017.10.03-13.07.13:569][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.10.03-13.07.20:008][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-13.07.20:012][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 10_0)
+[2017.10.03-13.07.20:012][  0]LogD3D11RHI:       128/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.03-13.07.20:017][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-13.07.20:017][  0]LogD3D11RHI:       0/0/1954 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-13.07.20:017][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-13.07.20:024][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-13.07.20:025][  0]LogD3D11RHI:     GPU DeviceId: 0x106 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-13.07.20:025][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-13.07.20:025][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2017.10.03-13.07.20:025][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2017.10.03-13.07.20:026][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.10.03-13.07.20:026][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2017.10.03-13.07.20:026][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2017.10.03-13.07.20:026][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2017.10.03-13.07.20:026][  0]LogRHI: Texture pool is 660 MB (70% of 944 MB)
+[2017.10.03-13.07.20:030][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-13.07.20:052][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2017.10.03-13.07.20:053][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Intermediate/Shaders/WorkingDirectory/7976/).
+[2017.10.03-13.07.20:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/T'sar/AppData/Local/Temp/UnrealShaderWorkingDir/054C859140F08095A8A9CDBF8565E4DB/'.
+[2017.10.03-13.07.20:053][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.03-13.07.22:349][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-13.07.22:459][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-13.07.22:571][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-13.07.22:681][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-13.07.22:867][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.03-13.07.22:979][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-13.07.23:093][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-13.07.23:204][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-13.07.23:294][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-13.07.23:428][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-13.07.23:536][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-13.07.23:645][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-13.07.23:754][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-13.07.23:861][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-13.07.23:969][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-13.07.24:183][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-13.07.24:183][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-13.07.24:261][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-13.07.24:495][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.03-13.07.24:567][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-13.07.24:676][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-13.07.24:786][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-13.07.24:897][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-13.07.25:006][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-13.07.25:006][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.03-13.07.25:913][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache: Loaded boot cache 0.11s 48MB C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-13.07.26:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-13.07.26:057][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-13.07.26:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/T'sar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-13.07.26:082][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-13.07.26:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-13.07.26:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-13.07.27:723][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-13.07.27:728][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.03-13.07.28:139][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-13.07.28:227][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-13.07.28:318][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-13.07.28:318][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.03-13.07.28:318][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.03-13.07.29:625][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myunrealproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3193458936
+[2017.10.03-13.07.29:696][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.10.03-13.07.29:968][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.228212 seconds
+[2017.10.03-13.07.29:977][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.10.03-13.07.29:977][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.10.03-13.07.29:977][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-13.07.30:111][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-13.07.49:136][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-13.07.49:204][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-13.07.50:508][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-13.07.51:364][  0]SourceControl: Info Source control is disabled
+[2017.10.03-13.07.55:150][  0]LogEngine: Initializing Engine...
+[2017.10.03-13.07.55:152][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-13.07.55:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-13.07.55:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-13.07.55:594][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-13.07.55:623][  0]LogInit: XAudio2 using 'VO320E (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-13.07.55:659][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-13.07.55:711][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/T'sar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.10.03-13.07.55:731][  0]LogInit: Texture streaming: Enabled
+[2017.10.03-13.07.55:928][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-13.07.56:153][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-13.07.56:942][  0]BlueprintLog: New page: Editor Load
+[2017.10.03-13.07.58:784][  0]LocalizationService: Info Localization service is disabled
+[2017.10.03-13.08.00:458][  0]LogConsoleResponse:Display: 
+[2017.10.03-13.08.00:811][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-13.08.00:811][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.03-13.08.01:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/' took 0.01s
+[2017.10.03-13.08.03:207][  0]Cmd: MAP LOAD FILE="../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2017.10.03-13.08.03:209][  0]LightingResults: New page: Lighting Build
+[2017.10.03-13.08.03:293][  0]MapCheck: New page: Map Check
+[2017.10.03-13.08.03:293][  0]LightingResults: New page: Lighting Build
+[2017.10.03-13.08.06:989][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.03-13.08.07:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-13.08.07:355][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-13.08.07:449][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.826ms to complete.
+[2017.10.03-13.08.07:449][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.242
+[2017.10.03-13.08.09:528][  0]LogCollectionManager: Loaded 0 collections in 0.002390 seconds
+[2017.10.03-13.08.09:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/Collections/' took 0.01s
+[2017.10.03-13.08.09:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/Developers/Tsar/Collections/' took 0.01s
+[2017.10.03-13.08.09:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/Collections/' took 0.01s
+[2017.10.03-13.08.09:861][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.10.03-13.08.09:884][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2245 classes and 453 folders.
+[2017.10.03-13.08.10:053][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.03-13.08.12:354][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.03-13.08.12:592][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.03-13.08.13:147][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.03-13.08.13:344][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.03-13.08.13:498][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.10.03-13.08.13:498][  0]LogLoad: (Engine Initialization) Total time: 64.44 seconds
+[2017.10.03-13.08.13:498][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.51 seconds
+[2017.10.03-13.08.13:498][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.03-13.08.13:498][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.03-13.08.13:534][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.03-13.08.13:535][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-13.08.13:591][  0]SourceControl: Info On branch master
+[2017.10.03-13.08.13:591][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
+[2017.10.03-13.08.13:591][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2017.10.03-13.08.13:591][  0]SourceControl: Info Changes not staged for commit:
+[2017.10.03-13.08.13:591][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.10.03-13.08.13:591][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Intermediate/CachedAssetRegistry.bin
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Saved/Autosaves/PackageRestoreData.json
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Saved/Config/Windows/Engine.ini
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Saved/Config/Windows/SourceControlSettings.ini
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	modified:   MyUNREALProject/Saved/Logs/MyUNREALProject.log
+[2017.10.03-13.08.13:591][  0]SourceControl: Info Untracked files:
+[2017.10.03-13.08.13:591][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	MyUNREALProject/Saved/AutoScreenshot.png
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	MyUNREALProject/Saved/Logs/MyUNREALProject-backup-2017.10.03-08.07.11.log
+[2017.10.03-13.08.13:591][  0]SourceControl: Info 	MyUNREALProject/Saved/Logs/UE4CC-Windows-FBC93E3449FD9F68BBF4D383BFC1814B/
+[2017.10.03-13.08.13:591][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.10.03-13.08.13:592][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.10.03-13.08.13:594][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-13.08.13:601][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-13.08.13:664][  0]LogSlate: Took 0.017672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-13.08.14:686][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:2).
+[2017.10.03-13.08.17:074][  1]LogSlate: Took 0.051086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-13.08.17:248][  2]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-13.08.17:766][  3]LogAssetRegistry: Asset discovery search completed in 48.0921 seconds
+[2017.10.03-13.08.17:766][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2017.10.03-13.08.17:766][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.10.03-13.10.36:339][ 24]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-13.10.36:726][ 24]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.10.36:781][ 24]LogTemp:Display: Added material ShaderMap 0x000001FBEE0B4480 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.10.36:885][ 24]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FBEE0B4480
+[2017.10.03-13.10.37:088][ 24]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-13.10.38:357][ 24]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.10.38:358][ 24]LogTemp:Display: Added material ShaderMap 0x000001FBD42B7900 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.10.38:367][ 24]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FBD42B7900
+[2017.10.03-13.10.38:394][ 24]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.10.38:648][ 24]LogSlate: Took 0.017978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.03-13.10.45:789][ 25]LogTemp:Display: Finished compile of shader map 0x000001FBEE0B4480
+[2017.10.03-13.10.45:789][ 25]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FBEE0B4480, marking material BlueMat as finished
+[2017.10.03-13.10.45:789][ 25]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.10.48:367][ 26]LogTemp:Display: Finished compile of shader map 0x000001FBD42B7900
+[2017.10.03-13.10.48:367][ 26]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FBD42B7900, marking material BlueMat as finished
+[2017.10.03-13.10.48:367][ 26]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.04:306][178]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.04:308][178]LogTemp:Display: Added material ShaderMap 0x000001FBEA46D980 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.04:316][178]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FBEA46D980
+[2017.10.03-13.11.04:316][178]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.04:412][178]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-13.11.04:450][178]LogTemp:Display: Added material ShaderMap 0x000001FBD42B7900 with Material 0x000001FB85EC0D00 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.04:453][178]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001FBD42B7900
+[2017.10.03-13.11.04:667][178]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.04:668][178]LogTemp:Display: Added material ShaderMap 0x000001FBD42B6400 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.04:677][178]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FBD42B6400
+[2017.10.03-13.11.04:677][178]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.04:679][178]LogTemp:Display: Removed shader map 0x000001FBD42B7900 from material 0x000001FB85EC0D00
+[2017.10.03-13.11.04:851][178]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-13.11.04:852][178]LogTemp:Display: Added material ShaderMap 0x000001FB8496C100 with Material 0x000001FB84102800 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.04:856][178]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001FB8496C100
+[2017.10.03-13.11.07:538][197]LogTemp:Display: Finished compile of shader map 0x000001FBEA46D980
+[2017.10.03-13.11.07:538][197]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FBEA46D980, marking material BlueMat as finished
+[2017.10.03-13.11.07:538][197]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.12:297][232]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.12:299][232]LogTemp:Display: Added material ShaderMap 0x000001FB85E79D00 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.12:312][232]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB85E79D00
+[2017.10.03-13.11.12:313][232]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.12:320][232]LogTemp:Display: Removed shader map 0x000001FB8496C100 from material 0x000001FB84102800
+[2017.10.03-13.11.12:407][232]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-13.11.12:409][232]LogTemp:Display: Added material ShaderMap 0x000001FB84092780 with Material 0x000001FB86385000 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.12:415][232]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001FB84092780
+[2017.10.03-13.11.12:871][236]LogTemp:Display: Finished compile of shader map 0x000001FBD42B6400
+[2017.10.03-13.11.12:871][236]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FBD42B6400, marking material BlueMat as finished
+[2017.10.03-13.11.12:871][236]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.14:213][243]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.14:215][243]LogTemp:Display: Added material ShaderMap 0x000001FB86F37900 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.14:228][243]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB86F37900
+[2017.10.03-13.11.14:228][243]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.14:234][243]LogTemp:Display: Removed shader map 0x000001FB84092780 from material 0x000001FB86385000
+[2017.10.03-13.11.14:286][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-13.11.14:288][243]LogTemp:Display: Added material ShaderMap 0x000001FBD42B4800 with Material 0x000001FB8402CA00 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.14:294][243]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001FBD42B4800
+[2017.10.03-13.11.15:066][249]LogTemp:Display: Finished compile of shader map 0x000001FB85E79D00
+[2017.10.03-13.11.15:066][249]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FB85E79D00, marking material BlueMat as finished
+[2017.10.03-13.11.15:066][249]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.16:593][258]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.16:595][258]LogTemp:Display: Added material ShaderMap 0x000001FB83FC9600 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.16:608][258]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB83FC9600
+[2017.10.03-13.11.16:608][258]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.16:614][258]LogTemp:Display: Removed shader map 0x000001FBD42B4800 from material 0x000001FB8402CA00
+[2017.10.03-13.11.16:685][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.10.03-13.11.16:687][258]LogTemp:Display: Added material ShaderMap 0x000001FB85E79600 with Material 0x000001FB84161900 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.16:693][258]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001FB85E79600
+[2017.10.03-13.11.17:123][262]LogTemp:Display: Finished compile of shader map 0x000001FB86F37900
+[2017.10.03-13.11.17:123][262]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FB86F37900, marking material BlueMat as finished
+[2017.10.03-13.11.17:123][262]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.21:291][289]LogMaterialEditor: Applying material BlueMat
+[2017.10.03-13.11.23:308][289]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.23:310][289]LogTemp:Display: Added material ShaderMap 0x000001FB83FCB580 with Material 0x000001FBEE0C3880 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.23:334][289]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB83FCB580
+[2017.10.03-13.11.23:335][289]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.23:481][289]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.23:483][289]LogTemp:Display: Added material ShaderMap 0x000001FB867A8800 with Material 0x000001FB8410AC80 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.23:508][289]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB867A8800
+[2017.10.03-13.11.23:571][289]LogMaterial: Missing cached shader map for material BlueMat, compiling. 
+[2017.10.03-13.11.23:573][289]LogTemp:Display: Added material ShaderMap 0x000001FB86F37900 with Material 0x000001FB8410AC80 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.23:590][289]LogTemp:Display: Kicking off shader compilation for BlueMat, GameThreadShaderMap 0x000001FB86F37900
+[2017.10.03-13.11.23:591][289]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.10.03-13.11.23:938][289]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlueMat, compiling. 
+[2017.10.03-13.11.23:940][289]LogTemp:Display: Added material ShaderMap 0x000001FB872E5600 with Material 0x000001FB8856DC00 to ShaderMapsBeingCompiled
+[2017.10.03-13.11.29:204][289]LogTemp:Display: Finished compile of shader map 0x000001FB872E5600
+[2017.10.03-13.11.29:204][289]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BlueMat complete, GameThreadShaderMap 0x000001FB872E5600, marking material FDebugViewModeMaterialProxy BlueMat as finished
+[2017.10.03-13.11.29:204][289]LogTemp:Display: Marking material as finished 0x000001FB8856DC00
+[2017.10.03-13.11.29:239][289]TextureStreamingBuild:Display: Compiling optional shaders took 5.363 seconds.
+[2017.10.03-13.11.29:309][289]LogTemp:Display: Finished compile of shader map 0x000001FB85E79600
+[2017.10.03-13.11.29:310][289]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000001FB85E79600, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.10.03-13.11.29:310][289]LogTemp:Display: Marking material as finished 0x000001FB84161900
+[2017.10.03-13.11.29:312][289]LogTemp:Display: Finished compile of shader map 0x000001FB83FC9600
+[2017.10.03-13.11.29:312][289]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FB83FC9600, marking material BlueMat as finished
+[2017.10.03-13.11.29:312][289]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.29:314][289]LogTemp:Display: Finished compile of shader map 0x000001FB83FCB580
+[2017.10.03-13.11.29:314][289]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FB83FCB580, marking material BlueMat as finished
+[2017.10.03-13.11.29:314][289]LogTemp:Display: Marking material as finished 0x000001FBEE0C3880
+[2017.10.03-13.11.36:170][366]LogTemp:Display: Finished compile of shader map 0x000001FB86F37900
+[2017.10.03-13.11.36:170][366]LogTemp:Display: Shader map BlueMat complete, GameThreadShaderMap 0x000001FB86F37900, marking material BlueMat as finished
+[2017.10.03-13.11.36:170][366]LogTemp:Display: Marking material as finished 0x000001FB8410AC80
+[2017.10.03-13.11.36:982][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2017.10.03-13.11.48:307][516]LogSavePackage: Save=1029.93ms
+[2017.10.03-13.11.48:307][516]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/ThirdPersonExampleMap4D3DD3E24CB7061578FBF89DED3D6E05.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.03-13.11.48:339][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.03-13.11.48:412][516]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.451
+[2017.10.03-13.11.48:683][516]LogSavePackage: Save=78.32ms
+[2017.10.03-13.11.48:683][516]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/BlueMat0FC2F2544B23821953D76EBD3F8C212B.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/BlueMat.uasset'
+[2017.10.03-13.11.48:691][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Material/BlueMat.uasset
