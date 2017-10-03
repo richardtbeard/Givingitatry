@@ -482,3 +482,14 @@ LogInit: Object subsystem initialized
 [2017.10.03-13.43.47:640][262]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/' is outside repository
 [2017.10.03-13.43.47:805][262]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/MyUNREALProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
 [2017.10.03-13.43.57:431][262]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
+[2017.10.03-13.51.45:445][907]LogTemp:Display: Removed shader map 0x000001FB8421AE80 from material 0x000001FB88972480
+[2017.10.03-13.51.45:445][907]LogTemp:Display: Removed shader map 0x000001FBFD296780 from material 0x000001FB88972480
+[2017.10.03-13.51.46:482][907]LogSavePackage: Save=256.89ms
+[2017.10.03-13.51.46:483][907]LogSavePackage: Moving '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Saved/ThirdPersonExampleMap5DC8578040B2583CA1FA66822F7C4286.tmp' to '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.03-13.51.46:491][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.10.03-13.51.46:525][907]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.506
+[2017.10.03-13.51.50:213][959]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.10.03-13.51.50:555][959]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/MyUNREALProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.10.03-13.52.11:463][959]SourceControl:Error: Error Operation 'CheckOut' not supported by source control provider 'Git'
+[2017.10.03-13.52.26:125][ 61]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.10.03-13.52.26:343][ 61]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/T'sar/Documents/GitHub/Givingitatry/MyUNREALProject/MyUNREALProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
